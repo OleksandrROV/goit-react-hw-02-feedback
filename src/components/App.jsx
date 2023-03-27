@@ -26,7 +26,7 @@ class App extends Component {
   render() {
     const { good, neutral, bad } = this.state;
     return (
-      <>
+      <section className="container-component">
         <Section tytle="Feedback Option">
           <FeedbackOptions
             onLeaveFeedback={this.handleFeedback}
@@ -47,7 +47,7 @@ class App extends Component {
         ) : (
           <Notification message="There is no feedback" />
         )}
-      </>
+      </section>
     );
   }
 }

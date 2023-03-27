@@ -7,7 +7,7 @@ export const Statistic = ({
 }) => {
   console.log(total, positivePercentage);
   return (
-    <ul>
+    <ul className="stat-list">
       <li>Good: {good}</li>
       <li>Neutral: {neutral}</li>
       <li>Bad: {bad}</li>

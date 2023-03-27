@@ -1,7 +1,7 @@
 export default function Section({ tytle, children }) {
   return (
-    <div>
-      <h2>{tytle}</h2>
+    <div className="title-cont">
+      <h2 className="title-cont-text">{tytle}</h2>
       {children}
     </div>
   );

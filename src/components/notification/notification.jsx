@@ -1,7 +1,7 @@
 const Notification = ({ message }) => {
   return (
-    <div>
-      <p>{message}</p>
+    <div className="noti-cont">
+      <p className="noti-cont-text">{message}</p>
     </div>
   );
 };
